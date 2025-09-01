@@ -1,0 +1,108 @@
+# -----------------------------
+# Core
+# -----------------------------
+*.log
+*.swp
+*.tmp
+.DS_Store
+.idea/
+*.iml
+*.ipr
+*.iws
+.atom/
+.history
+
+# VS Code: keep if you want to share launch/tasks; otherwise uncomment
+# .vscode/
+
+# -----------------------------
+# Dart / Flutter
+# -----------------------------
+.dart_tool/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
+coverage/
+**/doc/api/
+
+# -----------------------------
+# Android
+# -----------------------------
+/android/.gradle/
+/android/**/local.properties
+/android/**/captures/
+/android/**/GeneratedPluginRegistrant.java
+/android/**/GeneratedPluginRegistrant.kt
+
+# Keystores & signing (DO NOT COMMIT)
+/android/app/*.jks
+/android/app/*.keystore
+/android/key.properties
+
+# Variant build folders
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# -----------------------------
+# iOS
+# -----------------------------
+/ios/Pods/
+/ios/.symlinks/
+/ios/Flutter/.last_build_id
+/ios/Flutter/App.framework
+/ios/Flutter/Flutter.framework
+/ios/Flutter/Flutter.podspec
+/ios/Flutter/Generated.xcconfig
+/ios/Flutter/ephemeral/
+/ios/.generated/
+/ios/DerivedData/
+
+/ios/Runner/GeneratedPluginRegistrant.*
+**/xcuserdata/
+
+# (Optional) keep workspace shared settings; ignore per-user only
+# /ios/Runner.xcworkspace/
+
+# -----------------------------
+# macOS
+# -----------------------------
+/macos/Pods/
+/macos/Flutter/ephemeral/
+/macos/Flutter/GeneratedPluginRegistrant.swift
+/macos/DerivedData/
+**/xcuserdata/
+
+# -----------------------------
+# Windows
+# -----------------------------
+/windows/flutter/ephemeral/
+
+# -----------------------------
+# Linux
+# -----------------------------
+/linux/flutter/ephemeral/
+
+# -----------------------------
+# Web
+# -----------------------------
+/web/.dart_tool/
+/web/.flutter-plugins
+# (build/ already covers web builds)
+
+# -----------------------------
+# Symbolication / Obfuscation
+# -----------------------------
+app.*.symbols
+app.*.map.json
+
+# -----------------------------
+# Misc project tooling
+# -----------------------------
+.migrate/
+.melos_tool/
+.swiftpm/
+.svn/
