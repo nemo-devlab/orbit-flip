@@ -11,6 +11,7 @@
 *.iws
 .atom/
 .history
+orbit_flip_new_chat_prompt.txt
 
 # VS Code: keep if you want to share launch/tasks; otherwise uncomment
 # .vscode/
