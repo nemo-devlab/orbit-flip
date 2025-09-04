@@ -108,7 +108,7 @@ class _HomePageState extends State<HomePage> {
                           size: 112,
                           onPressed: () {
                             // If you have GameBindings, pass them as arguments here.
-                            final bindings = ProductionBindings.create(context);
+                            final bindings = ProductionBindings.create();
                             Navigator.pushNamed(context, '/game', arguments: bindings);
                           },
                           child: const Icon(Icons.play_arrow,

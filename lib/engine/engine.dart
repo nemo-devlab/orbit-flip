@@ -11,7 +11,7 @@ import 'obstacle.dart';
 class OrbitEngine {
   OrbitEngine({
     this.toleranceRad = 0.2,   // strict-ish (you tuned this)
-    double angularSpeed = 1.4,  // abs rad/s
+    double angularSpeed = 1.6,  // abs rad/s
   }) : _angularSpeed = angularSpeed.abs();
 
   // --- Motion & tolerance ---
