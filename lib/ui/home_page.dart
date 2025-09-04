@@ -14,7 +14,8 @@
 import 'dart:async';
 import 'dart:ui' show FontFeature;
 import 'package:flutter/material.dart';
-import '../services/perfs.dart';
+import '../services/prefs.dart';
+import 'production_bindings.dart';
 
 
 class HomePage extends StatefulWidget {
@@ -107,7 +108,8 @@ class _HomePageState extends State<HomePage> {
                           size: 112,
                           onPressed: () {
                             // If you have GameBindings, pass them as arguments here.
-                            Navigator.pushNamed(context, '/game');
+                            final bindings = ProductionBindings.create(context);
+                            Navigator.pushNamed(context, '/game', arguments: bindings);
                           },
                           child: const Icon(Icons.play_arrow,
                               size: 42, color: Colors.black87),

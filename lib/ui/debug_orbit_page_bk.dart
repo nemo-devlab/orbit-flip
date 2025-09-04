@@ -10,7 +10,6 @@ import 'dart:math' as math;
 import 'dart:ui';
 import 'dart:ui' as ui show Image, PictureRecorder;
 import 'package:flutter/material.dart';
-import 'package:flutter/foundation.dart';
 
 import '../engine/engine.dart';
 import '../engine/obstacle.dart';
@@ -570,9 +569,4 @@ class _OrbitBgPainter extends CustomPainter {
   }
   @override
   bool shouldRepaint(covariant _OrbitBgPainter old) => false;
-}
-
-CustomPainter createProductionPainter(OrbitEngine engine, {required Listenable repaint}) {
-  // Use vector fallback (sprites: null) for production; still straight diagonals.
-  return _OrbitPainter(eng: engine, sprites: null, repaint: repaint);
 }

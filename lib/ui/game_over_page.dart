@@ -1,6 +1,6 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
-import '../services/perfs.dart';
+import '../services/prefs.dart';
 import 'widgets/primary_button.dart';
 import 'widgets/score_text.dart';
 
